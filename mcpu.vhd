@@ -4,13 +4,13 @@ use ieee.std_logic_unsigned.all;
 
 ENTITY mcpu IS
 	PORT (
-		RST : in    std_logic;
-		CLK : in    std_logic;
-		MOE : out   std_logic;
-		MWE : out   std_logic;
-		ADR : out   std_logic_vector(5 downto 0);
-		DIN : in    std_logic_vector(7 downto 0);
-		DOU : out   std_logic_vector(7 downto 0)
+		RST : IN    std_logic;
+		CLK : IN    std_logic;
+		MOE : OUT   std_logic;
+		MWE : OUT   std_logic;
+		ADR : OUT   std_logic_vector(5 downto 0);
+		DIN : IN    std_logic_vector(7 downto 0);
+		DOU : OUT   std_logic_vector(7 downto 0)
 	);
 END;
 
